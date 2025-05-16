@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(209, 57, 57);
+}
+regulagem{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imagemdecabeçalho {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardapio1 {
+    width: 32%;
+    height: 500px;
+    background-color: black;
+    transition: 0.3s;
+    display: inline-block
+}
+.cardapio1:hover {
+    width: 34%;
+    height: 500px;
+    background-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+    display: inline-block
+}
+.cardapio2 {
+    width: 32%;
+    height: 500px;
+    background-color: rgb(37, 37, 37);
+    transition: 0.3s;
+    display: inline-block;
+}
+.cardapio2:hover {
+    width: 34%;
+    height: 500px;
+    background-color: rgb(37, 37, 37);
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    display: inline-block
+}
+.cardapio3 {
+    width: 32%;
+    height: 500px;
+    background-color: rgb(54, 54, 54);
+    transition: 0.3s;
+    display: inline-block;
+}
+.cardapio3:hover {
+    width: 34%;
+    height: 500px;
+    background-color:  rgb(54, 54, 54);
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.pizza4queijo {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+.pizzafrangos {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+.pizzamignons {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
